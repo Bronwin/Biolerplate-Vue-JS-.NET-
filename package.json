@@ -1,0 +1,59 @@
+{
+  "name": "directquoteswebsetup",
+  "version": "1.0.0",
+  "description": "Setup Direct Quotes",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "karma start test/karma.conf.js --single-run",
+    "clean": "rimraf dist",
+    "dev": "npm run clean && webpack --mode development",
+    "build": "npm run clean && webpack --mode production"
+  },
+  "keywords": [
+    "Setup",
+    "Direct",
+    "Quotes"
+  ],
+  "author": "Cirrus Product Development",
+  "license": "ISC",
+  "devDependencies": {
+    "@vue/test-utils": "^1.0.0-beta.24",
+    "axios": "^0.18.0",
+    "babel-core": "^6.26.3",
+    "babel-helper-vue-jsx-merge-props": "^2.0.3",
+    "babel-loader": "^7.1.5",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "bootstrap": "^4.1.3",
+    "css-loader": "^1.0.0",
+    "drag-mock": "^1.4.0",
+    "es6-promise": "^4.2.4",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "html-webpack-plugin": "^3.2.0",
+    "jasmine": "^3.2.0",
+    "jquery": "^3.3.1",
+    "karma": "^3.0.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.2",
+    "karma-webpack": "^3.0.2",
+    "node-sass": "^4.9.3",
+    "rimraf": "^2.6.2",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.21.0",
+    "v-tooltip": "^2.0.0-rc.33",
+    "vue": "^2.5.17",
+    "vue-clickaway": "^2.2.2",
+    "vue-loader": "^15.4.1",
+    "vue-router": "^3.0.1",
+    "vue-style-loader": "^4.1.1",
+    "vue-template-compiler": "^2.5.17",
+    "vuedraggable": "^2.16.0",
+    "vuetify": "^1.1.9",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "vue-snotify": "^3.2.1",
+    "vuex": "^3.0.1"
+  }
+}

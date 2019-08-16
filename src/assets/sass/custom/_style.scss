@@ -1,0 +1,15 @@
+﻿.v-list a:hover {
+  background-color: #ededed; /* Required when declaring ::selection */
+  text-shadow: none;
+}
+
+.v-toolbar__content{
+  height:45px !important;
+}
+
+.v-toolbar__title {
+  font-size: 18px !important;
+}
+.v-list__tile--avatar {
+  height: 45px !important;
+}
